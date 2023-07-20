@@ -1,6 +1,7 @@
 const assets = {
     logos: {
         littleLemon: require('./files/Logo.svg').default,
+        bike: require('./files/motorbike-side-view.svg').default,
     },
     images:{
         restaurantFood: require('./files/restauranfood.jpg'),

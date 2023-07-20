@@ -55,6 +55,11 @@
 .menuPreview{
     display: flex;
     margin: 10px var(--top-navbar-margin-side);
+    margin-bottom: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.menuPreview h4{
+    align-self: center;
 }

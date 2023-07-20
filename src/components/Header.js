@@ -6,7 +6,7 @@ function Header() {
     console.log(assets)
   return (
     <header>
-      <img src={assets.logos.littleLemon} alt="" width="100" heigh="100"/>
+      <img src={assets.logos.littleLemon} alt="" width="150" heigh="150"/>
       <Nav/>
     </header>
   )

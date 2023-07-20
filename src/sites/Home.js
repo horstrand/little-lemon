@@ -4,7 +4,7 @@ import Assets from '../assets';
 import Button from '../components/Button';
 import Dish from '../components/Dish';
 
-const menuItems= [
+const menuItems = [
   {
     name: "Greek salad",
     image: Assets.images.greekSalad,
@@ -33,16 +33,16 @@ function Home() {
           <h1>Little Lemon</h1>
           <h3>Chicago</h3>
           <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-          <Button title="Reserve a Table"/>
+          <Button title="Reserve a Table" />
         </div>
-        <img src={Assets.images.restaurantFood} alt="Restaurant food" width="250" height="250"/>
+        <img src={Assets.images.restaurantFood} alt="Restaurant food" width="250" height="250" />
       </div>
       <div className={styles.news}>
         <h1>This week specials!</h1>
-        <Button title="Online Menu" padding="16px 16px"/>
+        <Button title="Online Menu" padding="16px 16px" />
       </div>
       <div className={styles.menuPreview}>
-        {menuItems.map(dish => <Dish key={dish.name} name={dish.name} image={dish.image} price={dish.price} description={dish.description}/>)}
+        {menuItems.map(dish => <Dish key={dish.name} name={dish.name} image={dish.image} price={dish.price} description={dish.description} />)}
       </div>
     </main>
   )
