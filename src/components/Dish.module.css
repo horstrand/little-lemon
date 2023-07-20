@@ -1,0 +1,20 @@
+.dish{
+    display: flex;
+    flex-direction: column;
+}
+
+.dish img{
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.details{
+    background-color: #EDEFEE;
+}
+
+.titlePrice{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}

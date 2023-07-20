@@ -8,7 +8,6 @@ function Header() {
     <header>
       <img src={assets.logos.littleLemon} alt="" width="100" heigh="100"/>
       <Nav/>
-
     </header>
   )
 }

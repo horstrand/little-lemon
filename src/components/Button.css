@@ -1,0 +1,10 @@
+button{
+    background-color: #F4CE14;;
+    border: none;
+    color: black;
+    font-family: 'Karla';
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
