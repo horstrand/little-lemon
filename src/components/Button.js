@@ -3,7 +3,7 @@ import './Button.css';
 
 function Button(props) {
   return (
-    <button style={{
+    <button onClick={props.onClick} style={{
         padding: props.padding ?? "5px 15px",
         margin: props.margin ?? "5px 5px",
     }}>{props.title}</button>

@@ -1,13 +1,14 @@
 
 .presentation{
-    width: 100%;
+    width: 200%;
+    left: -50%;
     background-color: #495E57;
     position: relative;
     margin-bottom: 40px;
 }
 
 .presentation > div{
-    margin: 0 var(--top-navbar-margin-side);
+    margin: 0 calc(var(--content-width)/2);
     padding: 15px 0;
     width: 200px;
 }
@@ -36,14 +37,14 @@
 .presentation img{
     position: absolute;
     top: 16px;
-    right: var(--top-navbar-margin-side);
+    right: calc(var(--content-width)/2);
     border-radius: 8px;
     object-fit: cover;
 }
 
 .news{
     display: flex;
-    margin: 0 var(--top-navbar-margin-side);
+    /* margin: 0 var(--top-navbar-margin-side); */
     justify-content: space-between;
     align-items: center;
 }
@@ -54,7 +55,7 @@
 
 .menuPreview{
     display: flex;
-    margin: 10px var(--top-navbar-margin-side);
+    /* margin: 10px var(--top-navbar-margin-side); */
     margin-bottom: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;

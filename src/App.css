@@ -1,6 +1,7 @@
 :root{
-    --top-navbar-height: 100px;
+    --top-navbar-height: 80px;
     --top-navbar-margin-side: 25%;
+    --content-width: 50%;
 }
 
 header {
@@ -10,21 +11,34 @@ header {
   height: var(--top-navbar-height);
   align-items: center;
   justify-content: space-between;
-  margin: 0 var(--top-navbar-margin-side);
-  width: calc(100% - var(--top-navbar-margin-side)*2);
+  /* margin: 0 var(--top-navbar-margin-side); */
+  /* width: calc(100% - var(--top-navbar-margin-side)*2); */
+  background-color: white;
+  width: 100%;
+}
+
+header img{
+  padding-left: calc(var(--content-width)/2);
+  cursor: pointer;
+}
+
+nav{
+  padding-right: calc(var(--content-width)/2);
 }
 
 main {
   padding-top: var(--top-navbar-height);
   position: relative;
   min-height: calc(100vh - var(--top-navbar-height)*2.07);
+  margin: auto;
+  width: 50%;
 }
 
 footer {
   display: flex;
   padding: 3px;
   height: 100px;
-  padding: 0 var(--top-navbar-margin-side);
+  padding: 0 calc(var(--content-width)/2);
   justify-content: space-between;
   border-top: 1px solid black;
 }
