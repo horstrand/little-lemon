@@ -15,8 +15,7 @@ function Reservation() {
 
   useEffect(()=>{
     const fetchData = async ()=>{
-      const array = await fetchAPI(Date(date))
-      console.log(array)
+      // const array = await fetchAPI(Date(date))
     }
     fetchData()
   }, [date])
