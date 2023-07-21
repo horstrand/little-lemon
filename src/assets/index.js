@@ -8,6 +8,7 @@ const assets = {
         lemonDessert: require('./files/lemon dessert.jpg'),
         greekSalad: require('./files/greek salad.jpg'),
         bruchetta: require('./files/bruchetta.svg').default,
+        diningRoom: require('./files/restaurant.jpg'),
     }
 }
 
